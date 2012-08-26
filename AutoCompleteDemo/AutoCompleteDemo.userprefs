@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutoCompleteDemo/AutoCompleteDemoViewController.cs">
+    <Files>
+      <File FileName="AutoCompleteDemo/AutoCompleteDemoViewController.cs" Line="28" Column="52" />
+      <File FileName="AutoCompleteDemo/AutoCompleteTableSource.cs" Line="29" Column="4" />
+      <File FileName="AutoCompleteDemo/Main.cs" Line="15" Column="2" />
+      <File FileName="AutoCompleteDemo/AppDelegate.cs" Line="14" Column="84" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
