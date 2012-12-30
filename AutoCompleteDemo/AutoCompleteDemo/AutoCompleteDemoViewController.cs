@@ -42,12 +42,14 @@ namespace AutoCompleteDemo {
 		}
 
 		public void UpdateSuggestions() {
-			string[] suggestions;
+			string[] suggestions = null;
 
 			try {
-				suggestions = wordCollection.Where (x => x.ToLowerInvariant().Contains(textInput.Text))
+				InvokeOnMainThread(() => {
+					suggestions = wordCollection.Where (x => x.ToLowerInvariant().Contains(textInput.Text))
 						.OrderByDescending(x => x.ToLowerInvariant().StartsWith(textInput.Text))
 						.Select (x => x).ToArray();
+				});
 
 				if (suggestions.Length != 0) {
 					InvokeOnMainThread(() => {
